@@ -1,0 +1,96 @@
+body {
+    background: #eae8e7;
+    color: #767270;
+    padding: 1%;
+    font-size: 14px;
+    font-family: verdana, sans-serif;
+}
+
+.sidebar {
+    width:30%;
+    display: inline-block;
+    margin-left: 10%;
+    background: #6db2e7;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+.sidetop { position: relative; }
+
+.profile-basic {
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+}
+
+.profile-info {
+    padding: 20px 10px;
+    border-bottom: 1px solid #4783c2;
+}
+
+ .profile-info p{
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.profile-info .key{
+    font-weight: bold;	
+}
+
+
+.social-media:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.content {
+    width: 48%;
+    margin-left: 2%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.work-experience, .education {
+    margin-bottom: 30px;
+    padding: 5% 2% 5% 10%;
+    background: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.info {
+    padding: 2% 1%;
+    border-bottom: 1px solid #bdbdbd;
+}
+
+
+.head { 
+font-weight: bold;       
+}
+
+.duration {
+    color: #5da4d9;
+    font-size:12px;
+}
+.sidebar:hover{
+    box-shadow: 0 0 5px grey,
+    0 0 15px grey,
+    0 0 25px gray,
+    0 0 35px  gray;
+   
+}
+.work-experience:hover{
+    box-shadow: 0 0 5px grey,
+    0 0 15px grey,
+    0 0 25px gray,
+    0 0 35px  gray;
+}
+.education:hover{
+    box-shadow: 0 0 5px grey,
+    0 0 15px grey,
+    0 0 25px gray,
+    0 0 35px  gray;
+}
